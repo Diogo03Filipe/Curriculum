@@ -160,31 +160,15 @@ function App() {
             </div>
           </div>
 
-          <div className="portrait-card" aria-label="Decorative illustrated profile">
-            <div className="portrait-topline">
-              <span>INDEPENDENT THINKER</span>
-              <span>DEVELOPER</span>
-            </div>
-            <div className="portrait-orbit portrait-orbit--one" />
-            <div className="portrait-orbit portrait-orbit--two" />
-            <div className="portrait-sun" />
-            <div className="portrait-shape portrait-shape--left" />
-            <div className="portrait-shape portrait-shape--right" />
-            <div className="portrait-face">
-              <span className="face-hair" />
-              <span className="face-neck" />
-              <span className="face-body" />
-              <span className="face-eye face-eye--left" />
-              <span className="face-eye face-eye--right" />
-              <span className="face-nose" />
-              <span className="face-mouth" />
-              <span className="face-ear" />
-            </div>
-            <div className="portrait-caption">
-              <span>BUILD WITH</span>
-              <strong>INTENTION.</strong>
-            </div>
-            <span className="portrait-stamp">DS<br />✳</span>
+          <div className="portrait-card">
+            <img
+              className="portrait-photo"
+              src="/diogo-silva-portrait.jpg"
+              alt="Portrait of Diogo Silva"
+            />
+            <span className="portrait-stamp" aria-label="Diogo Silva initials">
+              DS
+            </span>
           </div>
           <div className="hero-note">BUILDING FOR THE WEB.</div>
         </section>
