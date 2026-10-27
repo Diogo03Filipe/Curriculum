@@ -178,13 +178,13 @@ p {
 
 .button--dark {
   padding: 0 18px;
-  color: #20211d;
-  background: #eee9df;
+  color: #081426;
+  background: var(--coral);
 }
 
 .button--dark:hover {
-  background: var(--coral);
-  color: #20211d;
+  background: #a5c9ff;
+  color: #081426;
 }
 
 .button--text {
